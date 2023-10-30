@@ -1,54 +1,59 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul, li {
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: #35495e;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-nav ul {
-    background-color: #333;
-    list-style: none;
+header h1 {
+    font-size: 2em;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
+/* Main Content Styles */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
     margin-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+h2 {
+    color: #35495e;
 }
 
-/* Add more CSS rules to style your website as you like. */
+ul {
+    list-style: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #35495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
